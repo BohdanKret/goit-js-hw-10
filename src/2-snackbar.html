@@ -7,7 +7,30 @@
     <title>Snackbar</title>
     <link rel="stylesheet" href="./css/styles.css" />
   </head>
-  <body>
+  <body class="container">
+    <div class="wrapper">
+      <form class="form">
+        <label class="form-delay">
+          Delay (ms)
+          <input type="number" name="delay" required />
+        </label>
+  
+        <fieldset class="form-state">
+          <legend>State</legend>
+          <label>
+            <input type="radio" name="state" value="fulfilled" required />
+            Fulfilled
+          </label>
+          <label>
+            <input type="radio" name="state" value="rejected" required />
+            Rejected
+          </label>
+        </fieldset>
+  
+        <button type="submit">Create notification</button>
+      </form>
+    </div>
+
     <script type="module" src="./js/2-snackbar.js"></script>
   </body>
 </html>
