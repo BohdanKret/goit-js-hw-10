@@ -36,7 +36,7 @@ const options = {
         message: 'Please choose a date in the future',
         messageColor: 'white',
         backgroundColor: '#EF4040',
-        iconUrl: '../img/svg/x-icon.svg',
+        iconUrl: './img/svg/x-icon.svg',
         iconColor: 'white',
         position: 'topRight',
         close: false,
